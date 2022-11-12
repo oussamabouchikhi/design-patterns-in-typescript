@@ -26,8 +26,6 @@ The Factory pattern is really about adding that extra abstraction between the ob
 
 - **Concrete Product:** The object returned from the Factory. The object implements the Product interface.
 
-Factory UML Diagram
-
 ## Factory UML Diagram
 
 ![factory concept](diagrams/factory_concept.svg)

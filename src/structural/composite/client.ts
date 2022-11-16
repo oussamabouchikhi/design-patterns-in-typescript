@@ -24,7 +24,7 @@ FOLDER_B.attach(FOLDER_A);
 FILESYSTEM.dir('');
 
 /* OUTPUT ********************************
-~ node ./dist/composite/client.js
+~ node ./dist/structural/composite/client.js
 
 <DIR>  root
 ..<FILE> abc.txt

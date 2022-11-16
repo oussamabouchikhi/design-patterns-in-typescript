@@ -27,19 +27,19 @@ export default class CubeB implements ICubeB {
   }
 }
 
-/**
- * Output
- * node ./dist/adapter/client.js
- * Company A was busy, so trying company B
- * Company B was busy, so trying company A
- * Company A built Cube with dimensions 6x5x10
- * Company A was busy, so trying company B
- * Company B built Cube with coords [-4,-3,-2.5],[4,3,2.5]
- * Company A built Cube with dimensions 4x5x3
- * Company A was busy, so trying company B
- * Company B was busy, so trying company A
- * Company A built Cube with dimensions 10x2x1
- * Company A was busy, so trying company B
- * Company B built Cube with coords [-0.5,-2,-2.5],[0.5,2,2.5]
- * 5 cubes have been manufactured
- */
+/**  OUTPUT
+ ~ node ./dist/structural/adapter/client.js
+ 
+ Company A was busy, so trying company B
+ Company B was busy, so trying company A
+ Company A built Cube with dimensions 6x5x10
+ Company A was busy, so trying company B
+ Company B built Cube with coords [-4,-3,-2.5],[4,3,2.5]
+ Company A built Cube with dimensions 4x5x3
+ Company A was busy, so trying company B
+ Company B was busy, so trying company A
+ Company A built Cube with dimensions 10x2x1
+ Company A was busy, so trying company B
+ Company B built Cube with coords [-0.5,-2,-2.5],[0.5,2,2.5]
+ 5 cubes have been manufactured
+*/

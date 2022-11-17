@@ -1,4 +1,4 @@
-# Template Design Pattern
+# Template Method Design Pattern
 
 ## Overview
 
@@ -23,11 +23,11 @@ Abstract methods, must be overridden in the concrete class that extends the temp
 - **Abstract Class:** Defines the template method and the primitive steps as abstract and/or hook methods.
 - **Concrete Class:** A subclass that extends some or all of the abstract class primitive methods.
 
-## Template UML Diagram
+## Template Method UML Diagram
 
 ![template concept](diagrams/template_concept.svg)
 
-## Template Use Case
+## Template Method Use Case
 
 In the example use case, there is an `AbstractDocument` with several methods, some are optional and others must be overridden.
 
@@ -35,7 +35,7 @@ The document will be written out in two different formats.
 
 Depending on the concrete class used, the `text()` method will wrap new lines with `<p>` tags and the `print()` method will format text with tabs, or include HTML tags.
 
-### Template Example UML Diagram
+### Template Method Example UML Diagram
 
 ![template example](diagrams/template_example.svg)
 

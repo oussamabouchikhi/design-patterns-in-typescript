@@ -10,7 +10,7 @@ const HTML_DOCUMENT = new HTMLDocument();
 HTML_DOCUMENT.createDocument('Line 1\nLine 2');
 
 /*
-~ node ./dist/behavioural/template/client.js
+~ node "./dist/behavioural/template method/client.js"
 
 ----------------------
 title   : New Text Document
